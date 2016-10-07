@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fuel Cost Calculator</string>
+    <string name="enter_miles">Enter Miles</string>
+    <string name="enter_mpg">Enter Average MPG</string>
+    <string name="enter_cost_per_litre">Enter Cost / Litre £</string>
+    <string name="caculate">Calculate Cost</string>
+</resources>
