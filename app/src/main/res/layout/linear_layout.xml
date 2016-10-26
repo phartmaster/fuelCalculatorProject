@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -11,7 +12,8 @@
         android:paddingBottom="10dp"
         android:paddingEnd="5dp"
         android:paddingLeft="10dp"
-        android:paddingRight="5dp">
+        android:paddingRight="5dp"
+        tools:ignore="RtlHardcoded">
 
         <Button
             android:text="@string/new_journey"
@@ -23,7 +25,8 @@
             android:drawableLeft="@drawable/ic_new_journey_green_64dp"
             android:textSize="24sp"
             android:drawablePadding="-20dp"
-            android:onClick="onNewJourneyClick" />
+            android:onClick="onNewJourneyClick"
+            tools:ignore="InefficientWeight,NestedWeights,RtlHardcoded" />
     </LinearLayout>
 
     <LinearLayout
@@ -34,11 +37,12 @@
         android:paddingBottom="10dp"
         android:paddingEnd="5dp"
         android:paddingLeft="10dp"
-        android:paddingRight="5dp">
+        android:paddingRight="5dp"
+        tools:ignore="RtlHardcoded">
 
         <Button
             android:text="@string/open_journey"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/button2"
             android:layout_weight="1"
@@ -46,7 +50,8 @@
             android:drawableLeft="@drawable/ic_open_journey_green_64dp"
             android:drawablePadding="10dp"
             android:textSize="24sp"
-            android:onClick="onOpenJourneyClick" />
+            android:onClick="onOpenJourneyClick"
+            tools:ignore="NestedWeights,RtlHardcoded" />
     </LinearLayout>
 
     <LinearLayout
@@ -57,11 +62,12 @@
         android:paddingBottom="10dp"
         android:paddingEnd="5dp"
         android:paddingLeft="10dp"
-        android:paddingRight="5dp">
+        android:paddingRight="5dp"
+        tools:ignore="RtlHardcoded">
 
         <Button
             android:text="@string/save_journey"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:id="@+id/button3"
             android:layout_weight="1"
@@ -69,11 +75,13 @@
             android:drawableLeft="@drawable/ic_save_green_64dp"
             android:drawablePadding="10dp"
             android:textSize="24sp"
-            android:onClick="onSaveJourneyClick" />
+            android:onClick="onSaveJourneyClick"
+            tools:ignore="NestedWeights,RtlHardcoded" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="207dp"></LinearLayout>
+        android:layout_height="207dp"
+        tools:ignore="UselessLeaf"></LinearLayout>
 </LinearLayout>
