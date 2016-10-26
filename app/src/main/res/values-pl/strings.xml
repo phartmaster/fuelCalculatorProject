@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fuel Kalkulator kosztów</string>
+    <string name="caculate">Oblicz koszt</string>
+    <string name="calculate_journey">Obliczy nową podróż</string>
+    <string name="enter_cost_per_litre">Wprowadź Cost / litr £</string>
+    <string name="enter_miles">Wprowadź Miles</string>
+    <string name="enter_mpg">Wprowadź Średnia MPG</string>
+    <string name="new_journey">nową podróż</string>
+    <string name="open_journey">Open podróż</string>
+    <string name="save_journey">Zapisać PODRÓŻ</string>
+</resources>

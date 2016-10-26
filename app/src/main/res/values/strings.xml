@@ -1,7 +1,12 @@
 <resources>
-    <string name="app_name">Fuel Cost Calculator</string>
+    <string name="app_name">FUEL COST CALCULATOR</string>
     <string name="enter_miles">Enter Miles</string>
     <string name="enter_mpg">Enter Average MPG</string>
     <string name="enter_cost_per_litre">Enter Cost / Litre £</string>
     <string name="caculate">Calculate Cost</string>
+    <string name="calculate_journey">CALCULATE A NEW JOURNEY</string>
+    <string name="new_journey">NEW JOURNEY</string>
+    <string name="open_journey">OPEN A JOURNEY</string>
+    <string name="save_journey">SAVE A JOURNEY</string>
+
 </resources>

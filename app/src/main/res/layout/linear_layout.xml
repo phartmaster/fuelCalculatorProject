@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".25"
+        android:paddingBottom="10dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp">
+
+        <Button
+            android:text="@string/new_journey"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/calculateButton"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_new_journey_green_64dp"
+            android:textSize="24sp"
+            android:drawablePadding="-20dp"
+            android:onClick="onNewJourneyClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".25"
+        android:paddingBottom="10dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp">
+
+        <Button
+            android:text="@string/open_journey"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_open_journey_green_64dp"
+            android:drawablePadding="10dp"
+            android:textSize="24sp"
+            android:onClick="onOpenJourneyClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".25"
+        android:paddingBottom="10dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp">
+
+        <Button
+            android:text="@string/save_journey"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_save_green_64dp"
+            android:drawablePadding="10dp"
+            android:textSize="24sp"
+            android:onClick="onSaveJourneyClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"></LinearLayout>
+</LinearLayout>
